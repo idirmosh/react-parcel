@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "devDependencies": {
+    "@babel/preset-react": "^7.6.3",
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
@@ -11,6 +17,8 @@
     "build": "parcel build ./src/index.html"
   },
   "dependencies": {
+    "autoprefixer": "^9.6.5",
+    "postcss-modules": "^1.4.1",
     "react": "^16.0.0",
     "react-dom": "^16.11.0"
   }
