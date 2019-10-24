@@ -1,9 +1,10 @@
 import React from 'react';
+import Main from '../../components/main';
 
 const App = () => {
   return (
-    <div className='max-w-sm mx-auto'>
-      <h1 className='font-bold mt-10'>App Container Loaded ! </h1>
+    <div className='max-w-4xl p-32 mx-auto'>
+      <Main />
     </div>
   );
 };
